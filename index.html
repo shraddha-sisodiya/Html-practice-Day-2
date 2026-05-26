@@ -1,0 +1,70 @@
+<DOCTYPE html!>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addmission form</title>
+    <head/>
+<body>
+    <h1>Addmission Form</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="enter your first name">
+        <input type="text"id="lastname" name="lastname" placeholder="enter your last name">
+        <br>
+
+        <label for="father name">father name:</label>
+        <input type="text"id="fathername" name="fathername" placeholder="enter your father name">
+        <br>
+
+        <label for="mother name">mother name:</label>
+        <input type="text"id="mothername" name="mothername" placeholder="enter your mother name">
+        <br>
+        <label for="gender">gender</label>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+         <label for="address">Address:</label>
+        <input type="text"id="address" name="address" placeholder="enter your address">
+        <br>
+        <label for ="contact number">contact number:</label>
+
+        <input type="text"id="contact" name="contact" placeholder="enter your contact number">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email">
+        <input type="email" id="confirm_email" name="confirm_email" placeholder="confirm your email">
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="enter your password" name="enter your password" place holder="enter your password">
+    </fieldset>
+    <fieldset>
+        <legend for= "other information"></legend>
+        <label for="course">course:</label>
+        <select name="course" id="course"required>
+            <option value="b tech">b tech</option>
+            <option value="bsc">bsc</option>
+            <option value="bcom">bcom</option>
+        </select>
+            <br>
+        <label for="hobbies">hobbies:</label>
+        <input type="checkbox" id="hobbies" name="hobbies" value="sports">sports
+        <input type="checkbox" id="hobbies" name="hobbies" value="music">music
+        <input type="checkbox" id="hobbies" name="hobbies" value="reading">reading
+        
+    </fieldset>
+
+    </fieldset>
+    <fieldset>
+        <legend>Declaration</legend>
+        <p>I hereby declare that the information provided is true and correct to the best of my knowledge.</p>
+        <input type="checkbox" id="declaration" name="declaration" required>
+        <label for="declaration">I agree to the terms and conditions</label>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </fieldset>
+</body>
+
